@@ -1,0 +1,54 @@
+Reimbursements page VVVVVVVVVVVVVVVVVVVVV
+
+                                <OverlayTrigger
+                                    trigger="click"
+                                    placement="right"
+                                    show={activeReimbId === reimb.reimbId} // Show only if active
+                                    overlay={updatePopover(reimb)}
+                                    rootClose
+                                >
+                                    <Button variant="outline-info" className="ms-2" onClick={() => updateReimb(reimb)}>Update</Button>
+                                </OverlayTrigger>
+
+
+testing user
+username: testing_user
+password: testpassword
+
+del-testing user
+username: deltestuser
+password: testpassword
+
+
+
+manager testing
+"username": "saiTest2",
+"password": "testPWDtest"
+
+"username": "saiTest",
+"password": "testPWDtest",
+
+    
+        "userId": 3,
+        "firstName": "testFName",
+        "lastName": "testLName",
+        "username": "saiTest",
+        "password": "testPWDtest",
+        "role": "Manager",
+
+        "userId": 5,
+        "firstName": "testFName1",
+        "lastName": "testLName1",
+        "username": "saiTest2",
+        "password": "testPWDtest",
+        "role": "Manager",
+
+    
+        "userId": 7,
+        "firstName": "testing",
+        "lastName": "user",
+        "username": "testing_user",
+        "password": "testpassword",
+        "role": "Employee",
+
+    
